@@ -1,6 +1,5 @@
 # import modules
 import os
-import time
 import random
 
 # fill first space
