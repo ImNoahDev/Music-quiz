@@ -65,22 +65,3 @@ if login():
 with open('./score.txt', 'w') as f:
     f.write(high)
 f.close()
-
-
-
-# from flask import Flask, render_template, request
-# app = Flask(__name__)
-# @app.route('/')
-# def loginpage():
-#     return render_template('index.html')
-
-# @app.route('/questions', methods=['POST'])
-# def questions():
-#   pass
-
-# @app.route('/results', methods=['POST'])
-# def results():
-#   pass
-
-# if __name__ == '__main__':
-#     app.run()
